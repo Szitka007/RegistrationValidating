@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hun">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlapkezelés</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/querytoValidate.js"></script>
+</head>
+<body>
+    <form id="my_form">
+        <table id="tab">
+            <thead>
+                <tr>
+                    <td colspan="2">
+                        Regisztráció
+                    </td>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <td>
+                        Neve:
+                    </td>
+                    <td>
+                        <input type="text" name="user_name" id="user_name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email címe:
+                    </td>
+                    <td>
+                        <input type="text" name="email" id="email">
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="none" colspan="2">
+                        <button type="submit" id="button" onclick="return registrationCheck();">Regisztrálok</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

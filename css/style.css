@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+    color:black;
+    font-family:'Times New Roman';
+}
+table{
+    background-color: grey;
+    border:2px solid black;
+    width: 20%;
+}
+td{
+    border:2px solid black;
+}
+input{
+    width: 98%;
+}
+thead{
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+tbody{
+    font-weight: bold;
+    font-size: 110%;
+}
+#none{
+    border: none;
+}
